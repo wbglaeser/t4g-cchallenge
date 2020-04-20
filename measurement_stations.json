@@ -1,0 +1,22 @@
+[
+    {
+      "id":"33ceb441-23bc-4ca6-9fcd-ac35d41ef117",
+      "name":"PASSAU ILZSTADT",
+      "indicator":"W"
+    },
+    {
+      "id":"9f12c405-35ac-4d90-9b7b-023be355867e",
+      "name": "PASSAU DONAU",
+      "indicator": "W"
+    },
+    {
+      "id":"4520c1a8-174c-4b95-9ca3-fe1e3f9d874a",
+      "name":"PASSAU LUITPOLDBRÜCKE DFH",
+      "indicator":"DFH"
+    },
+    {
+      "id":"3199ce09-cd9b-4be2-82bc-f03bb81438e5",
+      "name": "PASSAU STEINBACHBRÜCKE DFH",
+      "indicator": "DFH"
+    }
+]
