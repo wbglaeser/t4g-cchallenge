@@ -26,7 +26,7 @@ http://localhost:5000/water_levels
 
 In der Liste der Stationen habe ich für Passau tatsächlich vier Messstation finden können. Zwei von diesen
 geben aber, soweit ich es verstehe, eine Durchfahrtshöhe an und damit nur indirekt den Pegelstand. Bei einer kurzen
-Internetrecherche habe ich tatsächlich noch weitere Station finden können [here]("https://www.hnd.bayern.de/pegel/meldestufen/donau_bis_passau").
-Diese Stationen habe ich aber nicht in der API finden können. Daher habe die Messstationen für die
-Durchfahrtshöhe mit eigebaut, auf eine Angabe der Meldestufe hier aber verzichtet. Wahrscheinlich habe
+Internetrecherche habe ich tatsächlich noch weitere Station finden können [here](https://www.hnd.bayern.de/pegel/meldestufen/donau_bis_passau).
+Diese Stationen habe ich aber nicht in der PegelOnline API finden können. Daher habe die Messstationen für die
+Durchfahrtshöhe mit eingebaut, auf eine Angabe der Meldestufe hier aber verzichtet. Wahrscheinlich habe
 ich die anderen zwei Messtationen übersehen.
