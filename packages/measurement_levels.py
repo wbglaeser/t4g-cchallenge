@@ -49,7 +49,7 @@ class MeasurementLevels:
             station["current_value"] = res_json["value"]
             station["trend"] = res_json["trend"]
             station["trend_str"] = ml.translate_trend(res_json["trend"])
-            station["current_value"] = ml.translate_value_to_meldestufe(res_json["value"])
+            station["meldestufe"] = ml.translate_value_to_meldestufe(res_json["value"])
             station["last_update"] = ml.parse_timestamp(res_json["timestamp"])
 
         return measurement_stations
