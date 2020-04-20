@@ -28,9 +28,8 @@ def measurement_levels():
 
     # retrieve latest measurements
     current_measurements = MeasurementLevels.fetch_all_stations(measurement_stations)
-    print(current_measurements)
 
-    return 0
+    return render_template('index.html', cm=current_measurements)
 
 if __name__ == "__main__":
     app.run()
