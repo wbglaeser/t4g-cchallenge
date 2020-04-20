@@ -1,5 +1,4 @@
 import requests
-import copy
 from datetime import datetime
 from collections import OrderedDict
 
@@ -11,12 +10,12 @@ class MeasurementLevels:
         0:"Stabil",
         -1:"Abfallend"
     }
-    VALUE_TO_MELDESTUFE={
+    VALUE_TO_MELDESTUFE=OrderedDict({
         "LEVEL_4":850,
         "LEVEL_3":770,
         "LEVEL_2":740,
         "LEVEL_1":700,
-    }
+    })
 
     def fetch_individual_station(self, station: dict) -> dict:
         """ fetch measurement levels for individual station """
