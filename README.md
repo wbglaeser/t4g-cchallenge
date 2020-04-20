@@ -2,7 +2,7 @@ Das Repo behinhaltet meine Lösung zur gestellten Tech4Germany Codechallenge.
 
 ### How to run
 
-Das Repo ist als standard python module mit setup file aufgebaut. Es kann somit über einen einfachen 
+Das Repo ist als standard *Python3* module mit setup file aufgebaut. Es kann somit über einen einfachen 
 pip install command installiert werden.
 
 ```
