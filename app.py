@@ -12,7 +12,7 @@ with open("measurement_stations.json", "r") as fp:
     measurement_stations = json.load(fp)
 
 
-# define app routes
+# define welcome route
 @app.route("/", methods=['GET', 'POST'])
 def welcome():
 
@@ -22,7 +22,7 @@ def welcome():
     """
     return msg
 
-# define app routes
+# define app route
 @app.route("/water_levels", methods=['GET', 'POST'])
 def measurement_levels():
 
