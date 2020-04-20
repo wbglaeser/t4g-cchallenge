@@ -1,4 +1,4 @@
-Das Repo behinhaltet meine Lösung zur gestellten Tech4Germany Codechallenge
+Das Repo behinhaltet meine Lösung zur gestellten Tech4Germany Codechallenge.
 
 ### How to run
 
@@ -8,7 +8,7 @@ pip install command installiert werden.
 ```
 git clone https://github.com/wbglaeser/t4g-cchallenge.git
 
-pip install requirements.txt
+pip install -r requirements.txt
 ``` 
 
 Die App wird mit einem einfachen python command gestartet und läuft auf dem localhost und unter dem Port 5000.
