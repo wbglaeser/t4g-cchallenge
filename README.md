@@ -8,6 +8,8 @@ pip install command installiert werden.
 ```
 git clone https://github.com/wbglaeser/t4g-cchallenge.git
 
+cd t4g-cchallenge
+
 pip install -r requirements.txt
 ``` 
 
